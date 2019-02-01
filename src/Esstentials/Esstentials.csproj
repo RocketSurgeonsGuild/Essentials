@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Rocket.Surgery.Xamarin.Essentials</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI.Events.XamEssentials" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Essentials.Abstractions\Essentials.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
