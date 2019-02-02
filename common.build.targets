@@ -1,6 +1,6 @@
 <Project>
     <ItemGroup>
-        <PackageReference Update="ReactiveUI.Events.XamEssentials"  Version="9.*" />
+        <PackageReference Update="ReactiveUI.Events.XamEssentials"  Version="9.7.2" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Update="Rocket.Surgery.Extensions.Testing.Fixtures " Version="1.0.0" />
