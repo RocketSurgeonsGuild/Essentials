@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Decorators for Xamarin.Essentials</Description>
     <AssemblyName>Rocket.Surgery.Xamarin.Essentials</AssemblyName>
     <RootNamespace>Rocket.Surgery.Xamarin.Essentials</RootNamespace>
   </PropertyGroup>

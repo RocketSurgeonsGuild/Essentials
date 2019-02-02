@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <Description>Abstractions for Xamarin.Essentials</Description>
         <AssemblyName>Rocket.Surgery.Xamarin.Essentials.Abstractions</AssemblyName>
         <RootNamespace>Rocket.Surgery.Xamarin.Essentials.Abstractions</RootNamespace>
         <LangVersion>7.1</LangVersion>

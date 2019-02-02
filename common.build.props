@@ -1,8 +1,14 @@
 <Project>
     <PropertyGroup>
         <Company>Rocket Surgeons Guild</Company>
-        <Copyright>Copyright Rodney Littles, II © 2019</Copyright>
+        <Authors>Rodney Littles, II</Authors>
+        <Copyright>Copyright Rodney Littles, II & Rocket Surgeons Guild © 2019</Copyright>
         <LangVersion>latest</LangVersion>
+        <RepositoryUrl>https://github.com/RocketSurgeonsGuild/Essentials</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/RocketSurgeonsGuild/Essentials</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/RocketSurgeonsGuild/Essentials/blob/master/LICENSE</PackageLicenseUrl>
         <PackageIconUrl>https://raw.githubusercontent.com/RocketSurgeonsGuild/graphics/master/png/rsg-patch-circle-color.png</PackageIconUrl>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     </PropertyGroup>
 </Project>

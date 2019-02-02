@@ -1,5 +1,5 @@
 # Rocket.Surgery.Xamarin.Essentials
-Abstractions and wrappers around Xamarin.Essentials library
+Abstractions and Decorators for Xamarin.Essentials and ReactiveUI.Events.XamEssentials
 
 | Build | Test | Release |
 |---|---|---|
