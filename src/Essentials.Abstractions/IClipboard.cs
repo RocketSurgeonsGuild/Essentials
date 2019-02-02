@@ -26,6 +26,6 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// Gets the text asynchronous.
         /// </summary>
         /// <returns>The text.</returns>
-        IObservable<string> GetTextAsync();
+        IObservable<string> GetText();
     }
 }

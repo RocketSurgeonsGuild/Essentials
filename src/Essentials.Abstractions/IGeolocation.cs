@@ -14,27 +14,19 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// Gets the last known location asynchronous.
         /// </summary>
         /// <returns>An observable sequence of locations.</returns>
-        IObservable<Location> GetLastKnownLocationAsync();
+        IObservable<Location> GetLastKnownLocation();
 
         /// <summary>
         /// Gets the location asynchronous.
         /// </summary>
         /// <returns>An observable sequence of locations.</returns>
-        IObservable<Location> GetLocationAsync();
-
-        /// <summary>
-        /// Gets the location asynchronous.
-        /// </summary>
-        /// <param name="request">The request.</param>
-        /// <returns>An observable sequence of locations.</returns>
-        IObservable<Location> GetLocationAsync(GeolocationRequest request);
+        IObservable<Location> GetLocation();
 
         /// <summary>
         /// Gets the location asynchronous.
         /// </summary>
         /// <param name="request">The request.</param>
-        /// <param name="cancelToken">The cancel token.</param>
         /// <returns>An observable sequence of locations.</returns>
-        IObservable<Location> GetLocationAsync(GeolocationRequest request, CancellationToken cancelToken);
+        IObservable<Location> GetLocation(GeolocationRequest request);
     }
 }

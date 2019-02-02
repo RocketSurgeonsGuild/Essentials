@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using Rocket.Surgery.Xamarin.Essentials.Abstractions;
 using Xamarin.Essentials;
 
@@ -8,6 +9,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
     /// Provides access to the <see cref="Preferences"/> API.
     /// </summary>
     /// <seealso cref="IPreferences" />
+    [SuppressMessage("Naming", "CA1716:Identifiers should not match keywords", Justification = "Decorating API methods")]
     public class PreferencesEssential : IPreferences
     {
         /// <inheritdoc />

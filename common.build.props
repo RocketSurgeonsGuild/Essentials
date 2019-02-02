@@ -2,7 +2,6 @@
     <PropertyGroup>
         <Company>Rocket Surgeons Guild</Company>
         <Authors>Rodney Littles, II</Authors>
-        <Copyright>Copyright Rodney Littles, II & Rocket Surgeons Guild © 2019</Copyright>
         <LangVersion>latest</LangVersion>
         <RepositoryUrl>https://github.com/RocketSurgeonsGuild/Essentials</RepositoryUrl>
         <RepositoryType>git</RepositoryType>

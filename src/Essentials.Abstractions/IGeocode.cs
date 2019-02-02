@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 
@@ -7,7 +7,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
     /// <summary>
     /// Interface representing Geocode features.
     /// </summary>
-    public interface IGeocoding
+    public interface IGeocode
     {
         /// <summary>
         /// Gets or sets the map key.

@@ -7,7 +7,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
     /// <summary>
     /// Provides access to the <see cref="Battery"/> API.
     /// </summary>
-    /// <seealso cref="Rocket.Surgery.Xamarin.Essentials.Abstractions.IPower" />
+    /// <seealso cref="IPower" />
     public class PowerEssential : IPower
     {
         /// <inheritdoc />

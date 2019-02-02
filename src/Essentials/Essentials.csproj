@@ -7,6 +7,10 @@
     <RootNamespace>Rocket.Surgery.Xamarin.Essentials</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\rlittles\Source\github\RocketSurgeonsGuild\Essentials\src\Essentials\Rocket.Surgery.Xamarin.Essentials.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="ReactiveUI.Events.XamEssentials" />
   </ItemGroup>

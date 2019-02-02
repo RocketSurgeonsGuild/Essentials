@@ -1,10 +1,13 @@
-﻿using Xamarin.Essentials;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
+using Xamarin.Essentials;
 
 namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
 {
     /// <summary>
     /// Interface representing Compass features.
     /// </summary>
+    [SuppressMessage("Naming", "CA1716:Identifiers should not match keywords", Justification = "Decorating API methods")]
     public interface ICompass
     {
         /// <summary>
@@ -14,6 +17,14 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         ///   <c>true</c> if this instance is monitoring; otherwise, <c>false</c>.
         /// </value>
         bool IsMonitoring { get; }
+
+        /// <summary>
+        /// Gets an observablesequence compass changed events.
+        /// </summary>
+        /// <value>
+        /// The compass changed.
+        /// </value>
+        IObservable<CompassChangedEventArgs> CompassChanged { get; }
 
         /// <summary>
         /// Starts the compass with the specified sensor speed.

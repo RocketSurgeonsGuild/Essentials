@@ -1,16 +1,24 @@
-﻿using Xamarin.Essentials;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
+using Xamarin.Essentials;
 
 namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
 {
     /// <summary>
     /// Interface representing Gyroscope features.
     /// </summary>
+    [SuppressMessage("Naming", "CA1716:Identifiers should not match keywords", Justification = "Decorating API methods")]
     public interface IGyroscope
     {
         /// <summary>
         /// Gets a value indicating whether this instance is monitoring.
         /// </summary>
         bool IsMonitoring { get; }
+
+        /// <summary>
+        /// Gets the gyroscope changed.
+        /// </summary>
+        IObservable<GyroscopeChangedEventArgs> GyroscopeChanged { get; }
 
         /// <summary>
         /// Starts the gyroscope with specified sensor speed.

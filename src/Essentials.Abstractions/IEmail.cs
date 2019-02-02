@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Reactive;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
@@ -14,7 +15,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// Composes the asynchronous.
         /// </summary>
         /// <returns>An observable sequence notification.</returns>
-        IObservable<Unit> ComposeAsync();
+        IObservable<Unit> Compose();
 
         /// <summary>
         /// Composes the asynchronous.
@@ -23,13 +24,14 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// <param name="body">The body.</param>
         /// <param name="to">To.</param>
         /// <returns>An observable sequence notification.</returns>
-        IObservable<Unit> ComposeAsync(string subject, string body, params string[] to);
+        [SuppressMessage("Naming", "CA1716:Identifiers should not match keywords", Justification = "Decorating API methods")]
+        IObservable<Unit> Compose(string subject, string body, params string[] to);
 
         /// <summary>
         /// Composes the asynchronous.
         /// </summary>
         /// <param name="message">The message.</param>
         /// <returns>An observable sequence notification.</returns>
-        IObservable<Unit> ComposeAsync(EmailMessage message);
+        IObservable<Unit> Compose(EmailMessage message);
     }
 }

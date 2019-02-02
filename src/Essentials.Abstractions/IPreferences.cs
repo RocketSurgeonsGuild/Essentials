@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
 {
     /// <summary>
     /// Interface representing Preferences features.
     /// </summary>
+    [SuppressMessage("Naming", "CA1716:Identifiers should not match keywords", Justification = "Decorating API methods")]
     public interface IPreferences
     {
         /// <summary>

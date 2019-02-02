@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Reactive;
 using System.Threading.Tasks;
 
@@ -7,6 +8,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
     /// <summary>
     /// Interface representing Secure Storage features.
     /// </summary>
+    [SuppressMessage("Naming", "CA1716:Identifiers should not match keywords", Justification = "Decorating API methods")]
     public interface ISecureStorage
     {
         /// <summary>

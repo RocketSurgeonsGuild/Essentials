@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rocket.Surgery.Xamarin.Essentials</name>
+    </assembly>
+    <members>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.AccelerometerEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Accelerometer"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.AccelerometerEssential.IsMonitoring">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.AccelerometerEssential.ReadChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.AccelerometerEssential.Start(Xamarin.Essentials.SensorSpeed)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.AccelerometerEssential.Stop">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.AppInfoEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.AppInfo"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.AppInfoEssential.PackageName">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.AppInfoEssential.Name">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.AppInfoEssential.VersionString">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.AppInfoEssential.Version">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.AppInfoEssential.BuildString">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.AppInfoEssential.OpenSettings">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.BatteryEssential">
+            <summary>
+            Provides access to <see cref="T:Xamarin.Essentials.Battery"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.BatteryEssential.ChargeLevel">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.BatteryEssential.State">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.BatteryEssential.PowerSource">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.BatteryEssential.BatteryChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.BrowserEssentials">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Browser"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.BrowserEssentials.Open(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.BrowserEssentials.Open(System.String,Xamarin.Essentials.BrowserLaunchMode)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.BrowserEssentials.Open(System.Uri)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.BrowserEssentials.Open(System.Uri,Xamarin.Essentials.BrowserLaunchMode)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.ClipboardEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Clipboard"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IClipboard" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.ClipboardEssential.HasText">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.ClipboardEssential.SetText(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.ClipboardEssential.GetText">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.CompasEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Compass"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.CompasEssential.IsMonitoring">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.CompasEssential.CompassChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.CompasEssential.Start(Xamarin.Essentials.SensorSpeed)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.CompasEssential.Stop">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.ConnectivityEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Connectivity"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IConnectivity" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.ConnectivityEssential.NetworkAccess">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.ConnectivityEssential.Profiles">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.ConnectivityEssential.ConnectivityChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.DeviceDisplayEssential">
+            <summary>
+            Provides access the the <see cref="T:Xamarin.Essentials.DeviceDisplay"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceDisplayEssential.KeepOnScreen">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceDisplayEssential.DisplayInfo">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceDisplayEssential.DisplayInfoChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.DeviceInfo"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.DeviceType">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.Idiom">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.Manufacturer">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.Name">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.Platform">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.Version">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.VersionString">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.DeviceInfoEssential.Model">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.EmailEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Email"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IEmail" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.EmailEssential.Compose">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.EmailEssential.Compose(System.String,System.String,System.String[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.EmailEssential.Compose(Xamarin.Essentials.EmailMessage)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.FileSystemEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.FileSystem"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFileSystem" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.FileSystemEssential.AppDataDirectory">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.FileSystemEssential.CacheDirectory">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.FileSystemEssential.OpenAppPackageFile(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.FlashlightEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Flashlight"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFlashlight" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.FlashlightEssential.TurnOn">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.FlashlightEssential.TurnOff">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Location"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential.GetLastKnownLocation">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential.GetLocation">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential.GetLocation(Xamarin.Essentials.GeolocationRequest)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.GyroscopeEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Gyroscope"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.GyroscopeEssential.IsMonitoring">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.GyroscopeEssential.GyroscopeChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GyroscopeEssential.Start(Xamarin.Essentials.SensorSpeed)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GyroscopeEssential.Stop">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.MagnetometerEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Magnetometer"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.MagnetometerEssential.IsMonitoring">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.MagnetometerEssential.MagnetometerChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.MagnetometerEssential.Start(Xamarin.Essentials.SensorSpeed)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.MagnetometerEssential.Stop">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.MapEssential">
+            <summary>
+            Provides access the the <see cref="T:Xamarin.Essentials.Map"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMap" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.MapEssential.Open(Xamarin.Essentials.Location)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.MapEssential.Open(Xamarin.Essentials.Placemark)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.MapEssential.Open(System.Double,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.MapEssential.Open(Xamarin.Essentials.Location,Xamarin.Essentials.MapLaunchOptions)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.MapEssential.Open(System.Double,System.Double,Xamarin.Essentials.MapLaunchOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.OrientationSensorEssential">
+            <summary>
+            Provides acces to the <see cref="T:Xamarin.Essentials.OrientationSensor"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.OrientationSensorEssential.IsMonitoring">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.OrientationSensorEssential.OrientationSensorChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.OrientationSensorEssential.Start(Xamarin.Essentials.SensorSpeed)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.OrientationSensorEssential.Stop">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.PhoneDialerEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.PhoneDialer"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPhoneDialer" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PhoneDialerEssential.Open(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.PowerEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Battery"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPower" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.PowerEssential.EnergySaverStatus">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.PowerEssential.EnergySaverStatusChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Preferences"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Clear">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Clear(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.ContainsKey(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.ContainsKey(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Single)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Int64)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Boolean,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Int32,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Double,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Single,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.Int64,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.DateTime)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Get(System.String,System.DateTime,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Remove(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Remove(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Single)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Int64)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Boolean,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Int32,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Double,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Single,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.Int64,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.DateTime)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.PreferencesEssential.Set(System.String,System.DateTime,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.SecureStorageEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.SecureStorage"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.SecureStorageEssential.Get(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.SecureStorageEssential.Set(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.SecureStorageEssential.Remove(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.SecureStorageEssential.RemoveAll">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.SmsEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Sms"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISms" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.SmsEssential.Compose">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.SmsEssential.Compose(Xamarin.Essentials.SmsMessage)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.TextToSpeechEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.TextToSpeech"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ITextToSpeech" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.TextToSpeechEssential.GetLocalesAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.TextToSpeechEssential.Speak(System.String,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.TextToSpeechEssential.Speak(System.String,Xamarin.Essentials.SpeechOptions,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.VersionTracking"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.BuildHistory">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.CurrentBuild">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.CurrentVersion">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.FirstInstalledBuild">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.FirstInstalledVersion">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.IsFirstLaunchEver">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.IsFirstLaunchForCurrentBuild">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.IsFirstLaunchForCurrentVersion">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.PreviousBuild">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.PreviousVersion">
+            <inheritdoc />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.VersionHistory">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.IsFirstLaunchForBuild(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.IsFirstLaunchForVersion(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.VersionTrackingEssential.Track">
+            <inheritdoc />
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.VibrationEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Vibration"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVibration" />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.VibrationEssential.Cancel">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.VibrationEssential.Vibrate">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.VibrationEssential.Vibrate(System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.VibrationEssential.Vibrate(System.TimeSpan)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

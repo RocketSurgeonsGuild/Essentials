@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Reactive;
 using System.Reactive.Linq;
 using Rocket.Surgery.Xamarin.Essentials.Abstractions;
@@ -9,7 +10,8 @@ namespace Rocket.Surgery.Xamarin.Essentials
     /// <summary>
     /// Provides access to the <see cref="SecureStorage"/> API.
     /// </summary>
-    /// <seealso cref="Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage" />
+    /// <seealso cref="ISecureStorage" />
+    [SuppressMessage("Naming", "CA1716:Identifiers should not match keywords", Justification = "Decorating API methods")]
     public class SecureStorageEssential : ISecureStorage
     {
         /// <inheritdoc />
