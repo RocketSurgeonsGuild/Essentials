@@ -2,6 +2,7 @@ trigger:
   branches:
     include:
       - master
+      - feature/*
       - refs/tags/*
 pr:
   autoCancel: true
@@ -43,7 +44,7 @@ jobs:
       name: 'Windows'
       dependsOn: GitVersion
       vmImage: "VS2017-Win2016"
-      pushNuget: true
+      pushNuget: false
       Configuration: $(Configuration)
       Verbosity: $(Verbosity)
       CakeVersion: $(CakeVersion)
@@ -52,10 +53,10 @@ jobs:
 
   - template: pipeline/cake-job.yml@rsg
     parameters:
-      name: 'Mac OSX'
+      name: 'MacOSX'
       dependsOn: GitVersion
       vmImage: "macOS-10.13"
-      pushNuget: false
+      pushNuget: true
       Configuration: $(Configuration)
       Verbosity: $(Verbosity)
       CakeVersion: $(CakeVersion)
