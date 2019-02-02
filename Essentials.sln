@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essentials.Abstractions", "src\Essentials.Abstractions\Essentials.Abstractions.csproj", "{99AB6045-CD32-49A7-B85E-EACB45ECEA3D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esstentials", "src\Esstentials\Esstentials.csproj", "{EAF4CA7A-ADAA-4847-8FDF-266FA93A490D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essentials", "src\Essentials\Essentials.csproj", "{EAF4CA7A-ADAA-4847-8FDF-266FA93A490D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

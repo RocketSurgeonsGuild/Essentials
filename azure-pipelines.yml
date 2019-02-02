@@ -30,10 +30,34 @@ variables:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: "true"
 
 jobs:
-  - template: pipeline/cake.yml@rsg
+  - job: GitVersion
+    pool:
+      vmImage: "VS2017-Win2016"
+    steps:
+      - template: gitversion/store.yml@rsg
+        parameters:
+          NuGetVersion: $(NuGetVersion)
+
+  - template: pipeline/cake-job.yml@rsg
     parameters:
+      name: 'Windows'
+      dependsOn: GitVersion
+      vmImage: "VS2017-Win2016"
+      pushNuget: true
       Configuration: $(Configuration)
       Verbosity: $(Verbosity)
-      DotNetVersion: $(DotNetVersion)
       CakeVersion: $(CakeVersion)
+      DotNetVersion: $(DotNetVersion)
+      NuGetVersion: $(NuGetVersion)
+
+  - template: pipeline/cake-job.yml@rsg
+    parameters:
+      name: 'Mac OSX'
+      dependsOn: GitVersion
+      vmImage: "macOS-10.13"
+      pushNuget: false
+      Configuration: $(Configuration)
+      Verbosity: $(Verbosity)
+      CakeVersion: $(CakeVersion)
+      DotNetVersion: $(DotNetVersion)
       NuGetVersion: $(NuGetVersion)

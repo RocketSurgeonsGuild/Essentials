@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Rocket.Surgery.Xamarin.Essentials</AssemblyName>
+    <RootNamespace>Rocket.Surgery.Xamarin.Essentials</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
