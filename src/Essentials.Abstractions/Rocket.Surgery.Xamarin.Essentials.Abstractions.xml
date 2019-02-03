@@ -1,0 +1,1029 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rocket.Surgery.Xamarin.Essentials.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer">
+            <summary>
+            Interface representing the Accelerometer features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer.IsMonitoring">
+            <summary>
+            Gets a value indicating whether the Accelerometer is monitoring.
+            </summary>
+            <value>
+              <c>true</c> if this instance is monitoring; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer.ReadChanged">
+            <summary>
+            Gets the Accelerometer changed events.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer.Start(Xamarin.Essentials.SensorSpeed)">
+            <summary>
+            Starts the Accelerometer with specified sensor speed.
+            </summary>
+            <param name="sensorSpeed">The sensor speed.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer.Stop">
+            <summary>
+            Stops the Accelerometer.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo">
+            <summary>
+            Interface representing Application Info.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo.PackageName">
+            <summary>
+            Gets the name of the package.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo.Name">
+            <summary>
+            Gets the name.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo.VersionString">
+            <summary>
+            Gets the version string.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo.Version">
+            <summary>
+            Gets the version.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo.BuildString">
+            <summary>
+            Gets the build string.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAppInfo.OpenSettings">
+            <summary>
+            Opens the settings.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery">
+            <summary>
+            Interface representing Battery features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery.ChargeLevel">
+            <summary>
+            Gets the charge level.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery.State">
+            <summary>
+            Gets the state.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery.PowerSource">
+            <summary>
+            Gets the power source.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery.BatteryChanged">
+            <summary>
+            Gets the battery changed.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser">
+            <summary>
+            Interface representing Browser features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser.Open(System.String)">
+            <summary>
+            Opens the browser asynchronously.
+            </summary>
+            <param name="uri">The URI.</param>
+            <returns>An observable notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser.Open(System.String,Xamarin.Essentials.BrowserLaunchMode)">
+            <summary>
+            Opens the browser asynchronously.
+            </summary>
+            <param name="uri">The URI.</param>
+            <param name="launchType">Type of the launch.</param>
+            <returns>An observable notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser.Open(System.Uri)">
+            <summary>
+            Opens the browser asynchronously.
+            </summary>
+            <param name="uri">The URI.</param>
+            <returns>An observable notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser.Open(System.Uri,Xamarin.Essentials.BrowserLaunchMode)">
+            <summary>
+            Opens the browser asynchronously.
+            </summary>
+            <param name="uri">The URI.</param>
+            <param name="launchType">Type of the launch.</param>
+            <returns>An observable notification.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IClipboard">
+            <summary>
+            Interface representing Clipboard features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IClipboard.HasText">
+            <summary>
+            Gets a value indicating whether this instance has text.
+            </summary>
+            <value>
+              <c>true</c> if this instance has text; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IClipboard.SetText(System.String)">
+            <summary>
+            Sets the text.
+            </summary>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IClipboard.GetText">
+            <summary>
+            Gets the text asynchronous.
+            </summary>
+            <returns>The text.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass">
+            <summary>
+            Interface representing Compass features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass.IsMonitoring">
+            <summary>
+            Gets a value indicating whether the compass is monitoring.
+            </summary>
+            <value>
+              <c>true</c> if this instance is monitoring; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass.CompassChanged">
+            <summary>
+            Gets an observablesequence compass changed events.
+            </summary>
+            <value>
+            The compass changed.
+            </value>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass.Start(Xamarin.Essentials.SensorSpeed)">
+            <summary>
+            Starts the compass with the specified sensor speed.
+            </summary>
+            <param name="sensorSpeed">The sensor speed.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass.Stop">
+            <summary>
+            Stops the compass.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IConnectivity">
+            <summary>
+            Interface representing the Network Connectivity features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IConnectivity.NetworkAccess">
+            <summary>
+            Gets the network access.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IConnectivity.Profiles">
+            <summary>
+            Gets the connection profiles.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IConnectivity.ConnectivityChanged">
+            <summary>
+            Gets the connectivity changed.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay">
+            <summary>
+            Interface representing Device Display features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay.KeepOnScreen">
+            <summary>
+            Gets or sets a value indicating whether [keep on screen].
+            </summary>
+            <value>
+              <c>true</c> if [keep on screen]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay.DisplayInfo">
+            <summary>
+            Gets the display information.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay.DisplayInfoChanged">
+            <summary>
+            Gets the screen metrics changed event handler.
+            </summary>
+            <value>
+            The screen metrics changed event handler.
+            </value>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo">
+            <summary>
+            Interface representing Device Information features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.Model">
+            <summary>
+            Gets the model.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.Manufacturer">
+            <summary>
+            Gets the manufacturer.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.Name">
+            <summary>
+            Gets the name.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.VersionString">
+            <summary>
+            Gets the version string.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.Version">
+            <summary>
+            Gets the version.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.Platform">
+            <summary>
+            Gets the platform.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.Idiom">
+            <summary>
+            Gets the idiom.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo.DeviceType">
+            <summary>
+            Gets the type of the device.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IEmail">
+            <summary>
+            Interface representing Email features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IEmail.Compose">
+            <summary>
+            Composes the asynchronous.
+            </summary>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IEmail.Compose(System.String,System.String,System.String[])">
+            <summary>
+            Composes the asynchronous.
+            </summary>
+            <param name="subject">The subject.</param>
+            <param name="body">The body.</param>
+            <param name="to">To.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IEmail.Compose(Xamarin.Essentials.EmailMessage)">
+            <summary>
+            Composes the asynchronous.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFileSystem">
+            <summary>
+            Interface representing File System features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFileSystem.CacheDirectory">
+            <summary>
+            Gets the cache directory.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFileSystem.AppDataDirectory">
+            <summary>
+            Gets the application data directory.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFileSystem.OpenAppPackageFile(System.String)">
+            <summary>
+            Opens the application package file asynchronous.
+            </summary>
+            <param name="filename">The filename.</param>
+            <returns>An observable sequence returning a stream.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFlashlight">
+            <summary>
+            Interface representing Flashlight features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFlashlight.TurnOn">
+            <summary>
+            Turns the on asynchronous.
+            </summary>
+            <returns>An obseervable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IFlashlight.TurnOff">
+            <summary>
+            Turns the off asynchronous.
+            </summary>
+            <returns>An obseervable sequence notification.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode">
+            <summary>
+            Interface representing Geocode features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode.MapKey">
+            <summary>
+            Gets or sets the map key.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode.GetPlacemarksAsync(Xamarin.Essentials.Location)">
+            <summary>
+            Gets the placemarks asynchronous.
+            </summary>
+            <param name="location">The location.</param>
+            <returns>The placemarks.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode.GetPlacemarksAsync(System.Double,System.Double)">
+            <summary>
+            Gets the placemarks asynchronous.
+            </summary>
+            <param name="latitude">The latitude.</param>
+            <param name="longitude">The longitude.</param>
+            <returns>The placemarks.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode.GetLocationsAsync(System.String)">
+            <summary>
+            Gets the locations asynchronous.
+            </summary>
+            <param name="address">The address.</param>
+            <returns>The locations.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation">
+            <summary>
+            Interface representing Geolocation features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation.GetLastKnownLocation">
+            <summary>
+            Gets the last known location asynchronous.
+            </summary>
+            <returns>An observable sequence of locations.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation.GetLocation">
+            <summary>
+            Gets the location asynchronous.
+            </summary>
+            <returns>An observable sequence of locations.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation.GetLocation(Xamarin.Essentials.GeolocationRequest)">
+            <summary>
+            Gets the location asynchronous.
+            </summary>
+            <param name="request">The request.</param>
+            <returns>An observable sequence of locations.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope">
+            <summary>
+            Interface representing Gyroscope features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope.IsMonitoring">
+            <summary>
+            Gets a value indicating whether this instance is monitoring.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope.GyroscopeChanged">
+            <summary>
+            Gets the gyroscope changed.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope.Start(Xamarin.Essentials.SensorSpeed)">
+            <summary>
+            Starts the gyroscope with specified sensor speed.
+            </summary>
+            <param name="sensorSpeed">The sensor speed.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope.Stop">
+            <summary>
+            Stops this instance.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer">
+            <summary>
+            Interface representing Magnetometer features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer.IsMonitoring">
+            <summary>
+            Gets a value indicating whether this instance is monitoring.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer.MagnetometerChanged">
+            <summary>
+            Gets an observable sequence of magnetometer changed events.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer.Start(Xamarin.Essentials.SensorSpeed)">
+            <summary>
+            Starts the specified sensor speed.
+            </summary>
+            <param name="sensorSpeed">The sensor speed.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer.Stop">
+            <summary>
+            Stops this instance.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMainThread">
+            <summary>
+            Interface representing the Main Thread.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMainThread.IsMainThread">
+            <summary>
+            Gets a value indicating whether this instance is main thread.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMainThread.BeginInvokeOnMainThread(System.Action)">
+            <summary>
+            Begins the invoke on main thread.
+            </summary>
+            <param name="action">The action.</param>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMap">
+            <summary>
+            Interface representing Map features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMap.Open(Xamarin.Essentials.Location)">
+            <summary>
+            Opens the specified location.
+            </summary>
+            <param name="location">The location.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMap.Open(Xamarin.Essentials.Placemark)">
+            <summary>
+            Opens the specified location.
+            </summary>
+            <param name="placemark">The placemark.</param>
+            <returns> An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMap.Open(System.Double,System.Double)">
+            <summary>
+            Opens the specified lattitude and longitude.
+            </summary>
+            <param name="latitude">The latitude.</param>
+            <param name="longitude">The longitude.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMap.Open(Xamarin.Essentials.Location,Xamarin.Essentials.MapLaunchOptions)">
+            <summary>
+            Opens the specified location.
+            </summary>
+            <param name="location">The location.</param>
+            <param name="launchOptions">The launch options.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMap.Open(System.Double,System.Double,Xamarin.Essentials.MapLaunchOptions)">
+            <summary>
+            Opens the specified lattitude and longitude.
+            </summary>
+            <param name="latitude">The latitude.</param>
+            <param name="longitude">The longitude.</param>
+            <param name="launchOptions">The launch options.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor">
+            <summary>
+            Interface representing Orientation Sensor features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor.IsMonitoring">
+            <summary>
+            Gets a value indicating whether this instance is monitoring.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor.OrientationSensorChanged">
+            <summary>
+            Gets the orientation sensor changed.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor.Start(Xamarin.Essentials.SensorSpeed)">
+            <summary>
+            Starts the specified sensor speed.
+            </summary>
+            <param name="sensorSpeed">The sensor speed.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor.Stop">
+            <summary>
+            Stops this instance.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPhoneDialer">
+            <summary>
+            Interface representing Phone Dialing features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPhoneDialer.Open(System.String)">
+            <summary>
+            Opens the specified number.
+            </summary>
+            <param name="number">The number.</param>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPower">
+            <summary>
+            Interface representing Power features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPower.EnergySaverStatus">
+            <summary>
+            Gets the energy saver status.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPower.EnergySaverStatusChanged">
+            <summary>
+            Gets the energy saver status changed.
+            </summary>
+            <value>
+            The energy saver status changed.
+            </value>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences">
+            <summary>
+            Interface representing Preferences features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Clear(System.String)">
+            <summary>
+            Clears the specified shared name.
+            </summary>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.ContainsKey(System.String)">
+            <summary>
+            Determines whether the specified key contains key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>
+              <c>true</c> if the specified key contains key; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.ContainsKey(System.String,System.String)">
+            <summary>
+            Determines whether the specified key contains key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>
+              <c>true</c> if the specified key contains key; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Boolean)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">if set to <c>true</c> [default value].</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Int32)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Double)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Single)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Int64)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.String,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Boolean,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">if set to <c>true</c> [default value].</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Int32,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Double,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Single,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.Int64,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.DateTime)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Get(System.String,System.DateTime,System.String)">
+            <summary>
+            Gets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="defaultValue">The default value.</param>
+            <param name="sharedName">Name of the shared.</param>
+            <returns>The preference.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Remove(System.String)">
+            <summary>
+            Removes the specified key.
+            </summary>
+            <param name="key">The key.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Remove(System.String,System.String)">
+            <summary>
+            Removes the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Boolean)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">if set to <c>true</c> [value].</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Int32)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Double)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Single)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Int64)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.String,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Boolean,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">if set to <c>true</c> [value].</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Int32,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Double,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Single,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.Int64,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.DateTime)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences.Set(System.String,System.DateTime,System.String)">
+            <summary>
+            Sets the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="sharedName">Name of the shared.</param>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage">
+            <summary>
+            Interface representing Secure Storage features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage.Get(System.String)">
+            <summary>
+            Gets the asynchronously.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage.Set(System.String,System.String)">
+            <summary>
+            Sets the asynchronously.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage.Remove(System.String)">
+            <summary>
+            Removes the specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>Whether this key was removed.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage.RemoveAll">
+            <summary>
+            Removes all.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISms">
+            <summary>
+            Interface representing SMS features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISms.Compose">
+            <summary>
+            Composes the sms asynchronously.
+            </summary>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISms.Compose(Xamarin.Essentials.SmsMessage)">
+            <summary>
+            Composes the asynchronous.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ITextToSpeech">
+            <summary>
+            Interface representing Text to Speach features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ITextToSpeech.GetLocalesAsync">
+            <summary>
+            Gets the locales asynchronous.
+            </summary>
+            <returns>The locales.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ITextToSpeech.Speak(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Speaks the asynchronous.
+            </summary>
+            <param name="text">The text.</param>
+            <param name="cancelToken">The cancel token.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ITextToSpeech.Speak(System.String,Xamarin.Essentials.SpeechOptions,System.Threading.CancellationToken)">
+            <summary>
+            Speaks the asynchronous.
+            </summary>
+            <param name="text">The text.</param>
+            <param name="settings">The settings.</param>
+            <param name="cancelToken">The cancel token.</param>
+            <returns>An observable sequence notification.</returns>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking">
+            <summary>
+            Interface representing Version Tracking features.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.BuildHistory">
+            <summary>
+            Gets the build history.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.CurrentBuild">
+            <summary>
+            Gets the current build.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.CurrentVersion">
+            <summary>
+            Gets the current version.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.FirstInstalledBuild">
+            <summary>
+            Gets the first installed build.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.FirstInstalledVersion">
+            <summary>
+            Gets the first installed version.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.IsFirstLaunchEver">
+            <summary>
+            Gets a value indicating whether this instance is first launch ever.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.IsFirstLaunchForCurrentBuild">
+            <summary>
+            Gets a value indicating whether this instance is first launch for current build.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.IsFirstLaunchForCurrentVersion">
+            <summary>
+            Gets a value indicating whether this instance is first launch for current version.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.PreviousBuild">
+            <summary>
+            Gets the previous build.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.PreviousVersion">
+            <summary>
+            Gets the previous version.
+            </summary>
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.VersionHistory">
+            <summary>
+            Gets the version history.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.IsFirstLaunchForBuild(System.String)">
+            <summary>
+            Determines whether [is first launch for build] [the specified build].
+            </summary>
+            <param name="build">The build.</param>
+            <returns>
+              <c>true</c> if [is first launch for build] [the specified build]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.IsFirstLaunchForVersion(System.String)">
+            <summary>
+            Determines whether [is first launch for version] [the specified version].
+            </summary>
+            <param name="version">The version.</param>
+            <returns>
+              <c>true</c> if [is first launch for version] [the specified version]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVersionTracking.Track">
+            <summary>
+            Tracks this instance.
+            </summary>
+        </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVibration">
+            <summary>
+            Interface representing Vibration features.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVibration.Cancel">
+            <summary>
+            Cancels this instance.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVibration.Vibrate">
+            <summary>
+            Vibrates this instance.
+            </summary>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVibration.Vibrate(System.Double)">
+            <summary>
+            Vibrates the specified duration.
+            </summary>
+            <param name="duration">The duration.</param>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IVibration.Vibrate(System.TimeSpan)">
+            <summary>
+            Vibrates the specified duration.
+            </summary>
+            <param name="duration">The duration.</param>
+        </member>
+    </members>
+</doc>

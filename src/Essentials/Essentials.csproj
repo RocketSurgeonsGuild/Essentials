@@ -5,15 +5,12 @@
     <Description>Decorators for Xamarin.Essentials</Description>
     <AssemblyName>Rocket.Surgery.Xamarin.Essentials</AssemblyName>
     <RootNamespace>Rocket.Surgery.Xamarin.Essentials</RootNamespace>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  <PropertyGroup>
     <DocumentationFile>C:\Users\rlittles\Source\github\RocketSurgeonsGuild\Essentials\src\Essentials\Rocket.Surgery.Xamarin.Essentials.xml</DocumentationFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="ReactiveUI.Events.XamEssentials" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Essentials.Abstractions\Essentials.Abstractions.csproj" />

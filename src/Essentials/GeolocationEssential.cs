@@ -22,6 +22,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
         public IObservable<Location> GetLocation() => Observable.FromAsync(Geolocation.GetLocationAsync);
 
         /// <inheritdoc />
-        public IObservable<Location> GetLocation(GeolocationRequest request) => Observable.FromAsync(() => Geolocation.GetLocationAsync(request));
+        public IObservable<Location> GetLocation(GeolocationRequest request) =>
+            Observable.FromAsync(() => Geolocation.GetLocationAsync(request));
     }
 }

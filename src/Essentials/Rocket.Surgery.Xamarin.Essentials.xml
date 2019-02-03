@@ -97,22 +97,22 @@
         <member name="M:Rocket.Surgery.Xamarin.Essentials.ClipboardEssential.GetText">
             <inheritdoc />
         </member>
-        <member name="T:Rocket.Surgery.Xamarin.Essentials.CompasEssential">
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.CompassEssential">
             <summary>
             Provides access to the <see cref="T:Xamarin.Essentials.Compass"/> API.
             </summary>
             <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass" />
         </member>
-        <member name="P:Rocket.Surgery.Xamarin.Essentials.CompasEssential.IsMonitoring">
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.CompassEssential.IsMonitoring">
             <inheritdoc />
         </member>
-        <member name="P:Rocket.Surgery.Xamarin.Essentials.CompasEssential.CompassChanged">
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.CompassEssential.CompassChanged">
             <inheritdoc />
         </member>
-        <member name="M:Rocket.Surgery.Xamarin.Essentials.CompasEssential.Start(Xamarin.Essentials.SensorSpeed)">
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.CompassEssential.Start(Xamarin.Essentials.SensorSpeed)">
             <inheritdoc />
         </member>
-        <member name="M:Rocket.Surgery.Xamarin.Essentials.CompasEssential.Stop">
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.CompassEssential.Stop">
             <inheritdoc />
         </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.ConnectivityEssential">

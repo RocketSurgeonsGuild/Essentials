@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Rocket.Surgery.Xamarin.Essentials.Mock</AssemblyName>
+    <RootNamespace>Rocket.Surgery.Xamarin.Essentials.Mock</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Essentials" />
+    <PackageReference Include="ReactiveUI.Testing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Essentials.Abstractions\Essentials.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

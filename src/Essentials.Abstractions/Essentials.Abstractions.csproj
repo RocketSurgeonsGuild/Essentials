@@ -5,16 +5,12 @@
         <Description>Abstractions for Xamarin.Essentials</Description>
         <AssemblyName>Rocket.Surgery.Xamarin.Essentials.Abstractions</AssemblyName>
         <RootNamespace>Rocket.Surgery.Xamarin.Essentials.Abstractions</RootNamespace>
-        <LangVersion>7.1</LangVersion>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
-    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PropertyGroup>
       <DocumentationFile>C:\Users\rlittles\Source\github\RocketSurgeonsGuild\Essentials\src\Essentials.Abstractions\Rocket.Surgery.Xamarin.Essentials.Abstractions.xml</DocumentationFile>
     </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
-    </ItemGroup>
 
     <ItemGroup>
       <Reference Include="System.Reactive">

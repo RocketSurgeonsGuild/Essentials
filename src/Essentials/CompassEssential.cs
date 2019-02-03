@@ -10,10 +10,10 @@ namespace Rocket.Surgery.Xamarin.Essentials
     /// Provides access to the <see cref="Compass"/> API.
     /// </summary>
     /// <seealso cref="ICompass" />
-    public class CompasEssential : ICompass
+    public class CompassEssential : ICompass
     {
         /// <inheritdoc />
-        public bool IsMonitoring { get; }
+        public bool IsMonitoring => Compass.IsMonitoring;
 
         /// <inheritdoc />
         public IObservable<CompassChangedEventArgs> CompassChanged => Events.CompassReadingChanged();
