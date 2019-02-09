@@ -7,6 +7,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essentials.Abstractions", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essentials", "src\Essentials\Essentials.csproj", "{EAF4CA7A-ADAA-4847-8FDF-266FA93A490D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{42A8691D-E96C-4E13-9508-1CB69E4F68D0}"
+ProjectSection(SolutionItems) = preProject
+	analyzers.ruleset = analyzers.ruleset
+	azure-pipelines.yml = azure-pipelines.yml
+	build.ps1 = build.ps1
+	cakefile.cake = cakefile.cake
+	common.build.props = common.build.props
+	common.build.targets = common.build.targets
+	GitVersion.yml = GitVersion.yml
+	stylecop.json = stylecop.json
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
