@@ -13,13 +13,10 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// <summary>
         /// Gets a value indicating whether the Accelerometer is monitoring.
         /// </summary>
-        /// <value>
-        ///   <c>true</c> if this instance is monitoring; otherwise, <c>false</c>.
-        /// </value>
         bool IsMonitoring { get; }
 
         /// <summary>
-        /// Gets the Accelerometer changed events.
+        /// Gets the Accelerometer changed events observable sequence.
         /// </summary>
         IObservable<AccelerometerChangedEventArgs> ReadChanged { get; }
 

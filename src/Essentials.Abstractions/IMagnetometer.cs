@@ -16,7 +16,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         bool IsMonitoring { get; }
 
         /// <summary>
-        /// Gets an observable sequence of magnetometer changed events.
+        /// Gets an observable sequence of magnetometer changed events observable sequence.
         /// </summary>
         IObservable<MagnetometerChangedEventArgs> MagnetometerChanged { get; }
 

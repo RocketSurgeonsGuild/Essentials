@@ -16,7 +16,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         bool IsMonitoring { get; }
 
         /// <summary>
-        /// Gets the gyroscope changed.
+        /// Gets the gyroscope changed events observable sequence.
         /// </summary>
         IObservable<GyroscopeChangedEventArgs> GyroscopeChanged { get; }
 

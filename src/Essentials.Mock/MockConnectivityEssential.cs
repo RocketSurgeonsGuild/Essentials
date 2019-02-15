@@ -54,9 +54,7 @@ namespace Essentials.Mock
         /// <inheritdoc />
         public IEnumerable<ConnectionProfile> Profiles { get; }
 
-        /// <summary>
-        /// Gets the connectivity changed.
-        /// </summary>
+        /// <inheritdoc />
         public IObservable<ConnectivityChangedEventArgs> ConnectivityChanged { get; }
 
         private static ConnectivityChangedEventArgs ChangeConnectivity(NetworkAccess networkAccess) =>

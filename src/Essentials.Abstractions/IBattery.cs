@@ -24,7 +24,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         BatteryPowerSource PowerSource { get; }
 
         /// <summary>
-        /// Gets the battery changed.
+        /// Gets the battery changed events observable sequence.
         /// </summary>
         IObservable<BatteryInfoChangedEventArgs> BatteryChanged { get; }
     }

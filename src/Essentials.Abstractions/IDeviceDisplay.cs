@@ -11,9 +11,6 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// <summary>
         /// Gets or sets a value indicating whether [keep on screen].
         /// </summary>
-        /// <value>
-        ///   <c>true</c> if [keep on screen]; otherwise, <c>false</c>.
-        /// </value>
         bool KeepOnScreen { get; set; }
 
         /// <summary>
@@ -22,11 +19,8 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         DisplayInfo DisplayInfo { get; }
 
         /// <summary>
-        /// Gets the screen metrics changed event handler.
+        /// Gets the screen metrics changed event observable sequence.
         /// </summary>
-        /// <value>
-        /// The screen metrics changed event handler.
-        /// </value>
         IObservable<DisplayInfoChangedEventArgs> DisplayInfoChanged { get; }
     }
 }

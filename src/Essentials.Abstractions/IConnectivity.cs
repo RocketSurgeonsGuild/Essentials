@@ -20,7 +20,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         IEnumerable<ConnectionProfile> Profiles { get; }
 
         /// <summary>
-        /// Gets the connectivity changed.
+        /// Gets the connectivity changed events observable sequence.
         /// </summary>
         IObservable<ConnectivityChangedEventArgs> ConnectivityChanged { get; }
     }

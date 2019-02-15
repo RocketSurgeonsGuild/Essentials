@@ -14,11 +14,8 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         EnergySaverStatus EnergySaverStatus { get; }
 
         /// <summary>
-        /// Gets the energy saver status changed.
+        /// Gets the energy saver status changed events observable sequence.
         /// </summary>
-        /// <value>
-        /// The energy saver status changed.
-        /// </value>
         IObservable<EnergySaverStatusChangedEventArgs> EnergySaverStatusChanged { get; }
     }
 }

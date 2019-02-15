@@ -11,9 +11,6 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// <summary>
         /// Gets a value indicating whether this instance has text.
         /// </summary>
-        /// <value>
-        ///   <c>true</c> if this instance has text; otherwise, <c>false</c>.
-        /// </value>
         bool HasText { get; }
 
         /// <summary>

@@ -16,7 +16,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         bool IsMonitoring { get; }
 
         /// <summary>
-        /// Gets the orientation sensor changed.
+        /// Gets the orientation sensor changed events observable sequence.
         /// </summary>
         IObservable<OrientationSensorChangedEventArgs> OrientationSensorChanged { get; }
 

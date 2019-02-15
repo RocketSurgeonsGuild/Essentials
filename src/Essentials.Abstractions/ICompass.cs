@@ -13,17 +13,11 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// <summary>
         /// Gets a value indicating whether the compass is monitoring.
         /// </summary>
-        /// <value>
-        ///   <c>true</c> if this instance is monitoring; otherwise, <c>false</c>.
-        /// </value>
         bool IsMonitoring { get; }
 
         /// <summary>
-        /// Gets an observablesequence compass changed events.
+        /// Gets an observablesequence compass changed events observable sequence.
         /// </summary>
-        /// <value>
-        /// The compass changed.
-        /// </value>
         IObservable<CompassChangedEventArgs> CompassChanged { get; }
 
         /// <summary>
