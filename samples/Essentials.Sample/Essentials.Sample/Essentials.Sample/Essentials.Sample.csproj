@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI" Version="9.7.2" />
+    <PackageReference Include="ReactiveUI.Events.XamForms" Version="9.7.2" />
+    <PackageReference Include="ReactiveUI.XamForms" Version="9.7.2" />
+    <PackageReference Include="Rocket.Surgery.Reactive.Extensions" Version="0.11.1" />
+    <PackageReference Include="Rocket.Surgery.Xamarin.Essentials" Version="0.2.0" />
+    <PackageReference Include="Rocket.Surgery.Xamarin.Essentials.Abstractions" Version="0.2.0" />
+    <PackageReference Include="Rocket.Surgery.Xamarin.Essentials.Mock" Version="0.2.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Battery\BatteryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator></Generator>
+    </Page>
+    <Page Include="Compass\CompassPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator></Generator>
+    </Page>
+    <Page Include="DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator></Generator>
+    </Page>
+    <Page Include="MasterCell.xaml">
+      <SubType>Designer</SubType>
+      <Generator></Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Compass\CompassPage.xaml.cs">
+      <DependentUpon>CompassPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

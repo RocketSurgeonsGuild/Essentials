@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rxui:ReactiveContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:rxui="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+    xmlns:sample="clr-namespace:Essentials.Sample;assembly=Essentials.Sample"
+    x:Class="Essentials.Sample.DetailPage"
+    x:TypeArguments="sample:DetailViewModel">
+    <ContentPage.Content>
+        <StackLayout Spacing="10">
+            <Button
+                x:Name="NavigateButton"
+                Text="Navigate"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BackButton"
+                Text="Navigate Back"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</rxui:ReactiveContentPage>
