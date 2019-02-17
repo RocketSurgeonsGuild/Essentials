@@ -24,9 +24,12 @@ namespace Essentials.Mocks.Tests
             // Given
             NetworkAccess access = NetworkAccess.None;
             var testScheduler = new TestScheduler();
-            var connectivity = new MockConnectivityEssential(testScheduler);
+            MockConnectivityEssential sut =
+                new MockConnectivityEssentialFixture()
+                    .WithScheduler(testScheduler)
+                    .WithAccesses(NetworkAccesses);
 
-            connectivity
+            sut
                 .ConnectivityChanged
                 .Subscribe(_ =>
                 {
