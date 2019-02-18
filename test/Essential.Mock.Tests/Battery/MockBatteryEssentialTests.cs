@@ -15,14 +15,14 @@ namespace Essentials.Mock.Tests.Battery
         public class TheStateProperty
         {
             [Fact]
-            public void Should()
+            public void Should_Reduce_Charge()
             {
                 // Given
                 var testScheduler = new TestScheduler();
                 MockBatteryEssential sut = new MockBatteryEssentialFixture().WithScheduler(testScheduler);
                 testScheduler.AdvanceTo(TimeSpan.FromSeconds(2).Ticks);
                 // Then
-                sut.State.Should().Be(BatteryState.Charging);
+                sut.ChargeLevel.Should().Be(97);
             }
         }
     }

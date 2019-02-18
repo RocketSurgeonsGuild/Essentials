@@ -44,7 +44,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Mock
 
             _chargeLevel = Observable
                 .Interval(TimeSpan.FromSeconds(seconds), _scheduler)
-                .Scan(99, (previous, next) => previous - 1).Select(Convert.ToDouble)
+                .Scan(99, (previous, next) => (int)next - 1).Select(Convert.ToDouble)
                 .ToProperty(this, x => x.ChargeLevel);
 
             _batteryState =
