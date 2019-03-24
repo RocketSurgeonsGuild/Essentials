@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Rocket.Surgery.Xamarin.Essentials.Mock</AssemblyName>
-    <RootNamespace>Rocket.Surgery.Xamarin.Essentials.Mock</RootNamespace>
+    <AssemblyName>Rocket.Surgery.Xamarin.Essentials.Mocks</AssemblyName>
+    <RootNamespace>Rocket.Surgery.Xamarin.Essentials.Mocks</RootNamespace>
+    <Description>Reactive mocks for Xamarin.Essentials</Description>
   </PropertyGroup>
 
   <ItemGroup>

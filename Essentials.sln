@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essentials.Abstractions", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Essentials", "src\Essentials\Essentials.csproj", "{EAF4CA7A-ADAA-4847-8FDF-266FA93A490D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.Mock", "src\Essentials.Mock\Essentials.Mock.csproj", "{C9D1833D-E273-410A-BB7C-613F34DB8ACF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.Mock", "src\Essentials.Mocks\Essentials.Mocks.csproj", "{C9D1833D-E273-410A-BB7C-613F34DB8ACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.Mock.Tests", "test\Essential.Mock.Tests\Essentials.Mock.Tests.csproj", "{1C571AEF-0CE0-4448-B42E-E887E5F7FAA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essentials.Mocks.Tests", "test\Essential.Mocks.Tests\Essentials.Mocks.Tests.csproj", "{1C571AEF-0CE0-4448-B42E-E887E5F7FAA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{42A8691D-E96C-4E13-9508-1CB69E4F68D0}"
 ProjectSection(SolutionItems) = preProject

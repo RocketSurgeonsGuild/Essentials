@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Reactive.Concurrency;
-using Essentials.Mock;
+using Essentials.Mocks;
 using Microsoft.Reactive.Testing;
 using Rocket.Surgery.Extensions.Testing.Fixtures;
 using Xamarin.Essentials;
 
-namespace Essential.Mock.Tests
+namespace Essentials.Mocks.Tests
 {
     public class MockConnectivityEssentialFixture : ITestFixtureBuilder
     {

@@ -2,7 +2,7 @@
 using Microsoft.Reactive.Testing;
 using Rocket.Surgery.Extensions.Testing.Fixtures;
 
-namespace Essentials.Mock.Tests
+namespace Essentials.Mocks.Tests
 {
     internal class MockCompassEssentialFixture : ITestFixtureBuilder
     {

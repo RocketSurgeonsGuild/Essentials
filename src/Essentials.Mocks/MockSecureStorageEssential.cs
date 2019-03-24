@@ -6,7 +6,7 @@ using System.Text;
 using ReactiveUI;
 using Rocket.Surgery.Xamarin.Essentials.Abstractions;
 
-namespace Essentials.Mock
+namespace Essentials.Mocks
 {
     /// <summary>
     /// Mock secure storage essential.

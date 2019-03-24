@@ -3,7 +3,7 @@ using System.Reactive.Concurrency;
 using Microsoft.Reactive.Testing;
 using Rocket.Surgery.Extensions.Testing.Fixtures;
 
-namespace Essentials.Mock.Tests.SecureStorage
+namespace Essentials.Mocks.Tests
 {
     public class MockSecureStorageEssentialFixture : ITestFixtureBuilder
     {

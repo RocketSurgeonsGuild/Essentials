@@ -13,13 +13,10 @@
             <summary>
             Gets a value indicating whether the Accelerometer is monitoring.
             </summary>
-            <value>
-              <c>true</c> if this instance is monitoring; otherwise, <c>false</c>.
-            </value>
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer.ReadChanged">
             <summary>
-            Gets the Accelerometer changed events.
+            Gets the Accelerometer changed events observable sequence.
             </summary>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IAccelerometer.Start(Xamarin.Essentials.SensorSpeed)">
@@ -90,7 +87,7 @@
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery.BatteryChanged">
             <summary>
-            Gets the battery changed.
+            Gets the battery changed events observable sequence.
             </summary>
         </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser">
@@ -137,9 +134,6 @@
             <summary>
             Gets a value indicating whether this instance has text.
             </summary>
-            <value>
-              <c>true</c> if this instance has text; otherwise, <c>false</c>.
-            </value>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IClipboard.SetText(System.String)">
             <summary>
@@ -162,17 +156,11 @@
             <summary>
             Gets a value indicating whether the compass is monitoring.
             </summary>
-            <value>
-              <c>true</c> if this instance is monitoring; otherwise, <c>false</c>.
-            </value>
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass.CompassChanged">
             <summary>
-            Gets an observablesequence compass changed events.
+            Gets an observablesequence compass changed events observable sequence.
             </summary>
-            <value>
-            The compass changed.
-            </value>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass.Start(Xamarin.Essentials.SensorSpeed)">
             <summary>
@@ -202,7 +190,7 @@
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IConnectivity.ConnectivityChanged">
             <summary>
-            Gets the connectivity changed.
+            Gets the connectivity changed events observable sequence.
             </summary>
         </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay">
@@ -214,9 +202,6 @@
             <summary>
             Gets or sets a value indicating whether [keep on screen].
             </summary>
-            <value>
-              <c>true</c> if [keep on screen]; otherwise, <c>false</c>.
-            </value>
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay.DisplayInfo">
             <summary>
@@ -225,11 +210,8 @@
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceDisplay.DisplayInfoChanged">
             <summary>
-            Gets the screen metrics changed event handler.
+            Gets the screen metrics changed event observable sequence.
             </summary>
-            <value>
-            The screen metrics changed event handler.
-            </value>
         </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IDeviceInfo">
             <summary>
@@ -410,7 +392,7 @@
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope.GyroscopeChanged">
             <summary>
-            Gets the gyroscope changed.
+            Gets the gyroscope changed events observable sequence.
             </summary>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGyroscope.Start(Xamarin.Essentials.SensorSpeed)">
@@ -436,7 +418,7 @@
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer.MagnetometerChanged">
             <summary>
-            Gets an observable sequence of magnetometer changed events.
+            Gets an observable sequence of magnetometer changed events observable sequence.
             </summary>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IMagnetometer.Start(Xamarin.Essentials.SensorSpeed)">
@@ -522,7 +504,7 @@
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor.OrientationSensorChanged">
             <summary>
-            Gets the orientation sensor changed.
+            Gets the orientation sensor changed events observable sequence.
             </summary>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IOrientationSensor.Start(Xamarin.Essentials.SensorSpeed)">
@@ -559,11 +541,8 @@
         </member>
         <member name="P:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPower.EnergySaverStatusChanged">
             <summary>
-            Gets the energy saver status changed.
+            Gets the energy saver status changed events observable sequence.
             </summary>
-            <value>
-            The energy saver status changed.
-            </value>
         </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences">
             <summary>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Rocket.Surgery.Xamarin.Essentials.Abstractions;
 
-namespace Essentials.Mock
+namespace Essentials.Mocks
 {
     /// <summary>
     /// Mock preferences essential.

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Essentials.Mock\Essentials.Mock.csproj" />
+    <ProjectReference Include="..\..\src\Essentials.Mocks\Essentials.Mocks.csproj" />
   </ItemGroup>
 
   <ItemGroup>

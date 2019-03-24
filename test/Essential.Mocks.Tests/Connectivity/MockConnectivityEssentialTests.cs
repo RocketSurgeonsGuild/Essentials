@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Essentials.Mock;
+using Essentials.Mocks;
 using FluentAssertions;
 using Microsoft.Reactive.Testing;
 using ReactiveUI.Testing;
 using Xamarin.Essentials;
 using Xunit;
 
-namespace Essential.Mock.Tests
+namespace Essentials.Mocks.Tests
 {
     public sealed class MockConnectivityEssentialTests
     {

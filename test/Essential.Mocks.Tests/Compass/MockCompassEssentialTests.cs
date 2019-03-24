@@ -7,7 +7,7 @@ using ReactiveUI.Testing;
 using Xamarin.Essentials;
 using Xunit;
 
-namespace Essentials.Mock.Tests
+namespace Essentials.Mocks.Tests
 {
     public sealed class MockCompassEssentialTests
     {

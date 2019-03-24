@@ -8,7 +8,7 @@ using ReactiveUI;
 using Rocket.Surgery.Xamarin.Essentials.Abstractions;
 using Xamarin.Essentials;
 
-namespace Essentials.Mock
+namespace Essentials.Mocks
 {
     /// <summary>
     /// Mock compass essential.

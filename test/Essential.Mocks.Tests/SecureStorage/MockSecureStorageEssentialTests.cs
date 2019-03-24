@@ -4,7 +4,7 @@ using System.Text;
 using FluentAssertions;
 using Xunit;
 
-namespace Essentials.Mock.Tests.SecureStorage
+namespace Essentials.Mocks.Tests
 {
     public sealed class MockSecureStorageEssentialTests
     {
