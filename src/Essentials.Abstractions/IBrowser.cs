@@ -38,6 +38,14 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         /// <param name="uri">The URI.</param>
         /// <param name="launchType">Type of the launch.</param>
         /// <returns>An observable notification.</returns>
-        IObservable<bool> Open(Uri uri, BrowserLaunchMode launchType);
+        IObservable<Unit> Open(Uri uri, BrowserLaunchMode launchType);
+
+        /// <summary>
+        /// Opens the specified URI.
+        /// </summary>
+        /// <param name="uri">The URI.</param>
+        /// <param name="launchOptions">The launch options.</param>
+        /// <returns>An observable notification.</returns>
+        IObservable<bool> Open(Uri uri, BrowserLaunchOptions launchOptions);
     }
 }

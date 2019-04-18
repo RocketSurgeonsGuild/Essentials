@@ -25,7 +25,11 @@ namespace Rocket.Surgery.Xamarin.Essentials
         public IObservable<Unit> Open(Uri uri) => Observable.FromAsync(() => Browser.OpenAsync(uri));
 
         /// <inheritdoc />
-        public IObservable<bool> Open(Uri uri, BrowserLaunchMode launchType) =>
+        public IObservable<Unit> Open(Uri uri, BrowserLaunchMode launchType) =>
             Observable.FromAsync(() => Browser.OpenAsync(uri, launchType));
+
+        /// <inheritdoc />
+        public IObservable<bool> Open(Uri uri, BrowserLaunchOptions launchOptions) =>
+            Observable.FromAsync(() => Browser.OpenAsync(uri, launchOptions));
     }
 }

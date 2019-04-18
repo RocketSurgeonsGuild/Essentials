@@ -125,6 +125,14 @@
             <param name="launchType">Type of the launch.</param>
             <returns>An observable notification.</returns>
         </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IBrowser.Open(System.Uri,Xamarin.Essentials.BrowserLaunchOptions)">
+            <summary>
+            Opens the specified URI.
+            </summary>
+            <param name="uri">The URI.</param>
+            <param name="launchOptions">The launch options.</param>
+            <returns>An observable notification.</returns>
+        </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IClipboard">
             <summary>
             Interface representing Clipboard features.

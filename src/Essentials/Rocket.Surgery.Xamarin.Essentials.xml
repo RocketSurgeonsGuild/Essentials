@@ -82,6 +82,9 @@
         <member name="M:Rocket.Surgery.Xamarin.Essentials.BrowserEssentials.Open(System.Uri,Xamarin.Essentials.BrowserLaunchMode)">
             <inheritdoc />
         </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.BrowserEssentials.Open(System.Uri,Xamarin.Essentials.BrowserLaunchOptions)">
+            <inheritdoc />
+        </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.ClipboardEssential">
             <summary>
             Provides access to the <see cref="T:Xamarin.Essentials.Clipboard"/> API.
