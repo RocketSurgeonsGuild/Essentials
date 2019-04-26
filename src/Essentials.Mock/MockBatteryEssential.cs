@@ -13,7 +13,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Mock
     /// <summary>
     /// Mock battery essential.
     /// </summary>
-    /// <seealso cref="Rocket.Surgery.Xamarin.Essentials.Abstractions.IBattery" />
+    /// <seealso cref="IBattery" />
     public class MockBatteryEssential : ReactiveObject, IBattery
     {
         private readonly IScheduler _scheduler;
@@ -42,14 +42,10 @@ namespace Rocket.Surgery.Xamarin.Essentials.Mock
             BatteryChanged = Observable.Interval(TimeSpan.FromSeconds(seconds), _scheduler).Select(_ =>
                 new BatteryInfoChangedEventArgs(_chargeLevel.Value, _batteryState.Value, _batterPowerSource.Value));
 
-            _chargeLevel = Observable
-                .Interval(TimeSpan.FromSeconds(seconds), _scheduler)
-                .Scan(99, (previous, next) => (int)next - 1).Select(Convert.ToDouble)
-                .ToProperty(this, x => x.ChargeLevel);
+            _chargeLevel = BatteryChanged.Select(Convert.ToDouble).ToProperty(this, x => x.ChargeLevel);
 
             _batteryState =
-                Observable
-                    .Interval(TimeSpan.FromSeconds(seconds))
+                BatteryChanged
                     .Select(x => batteryStates.First())
                     .ToProperty(this, x => x.State);
 

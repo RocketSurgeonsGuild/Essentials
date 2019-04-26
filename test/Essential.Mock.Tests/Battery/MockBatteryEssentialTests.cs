@@ -8,7 +8,7 @@ using Rocket.Surgery.Xamarin.Essentials.Mock;
 using Xamarin.Essentials;
 using Xunit;
 
-namespace Essentials.Mock.Tests.Battery
+namespace Essentials.Mock.Tests
 {
     public sealed class MockBatteryEssentialTests
     {
