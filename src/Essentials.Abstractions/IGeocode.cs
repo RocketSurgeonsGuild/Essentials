@@ -15,14 +15,14 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         string MapKey { get; set; }
 
         /// <summary>
-        /// Gets the placemarks asynchronous.
+        /// Gets the placemarks asynchronously.
         /// </summary>
         /// <param name="location">The location.</param>
         /// <returns>The placemarks.</returns>
         Task<IEnumerable<Placemark>> GetPlacemarksAsync(Location location);
 
         /// <summary>
-        /// Gets the placemarks asynchronous.
+        /// Gets the placemarks asynchronously.
         /// </summary>
         /// <param name="latitude">The latitude.</param>
         /// <param name="longitude">The longitude.</param>
@@ -30,7 +30,7 @@ namespace Rocket.Surgery.Xamarin.Essentials.Abstractions
         Task<IEnumerable<Placemark>> GetPlacemarksAsync(double latitude, double longitude);
 
         /// <summary>
-        /// Gets the locations asynchronous.
+        /// Gets the locations asynchronously.
         /// </summary>
         /// <param name="address">The address.</param>
         /// <returns>The locations.</returns>

@@ -344,14 +344,14 @@
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode.GetPlacemarksAsync(Xamarin.Essentials.Location)">
             <summary>
-            Gets the placemarks asynchronous.
+            Gets the placemarks asynchronously.
             </summary>
             <param name="location">The location.</param>
             <returns>The placemarks.</returns>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode.GetPlacemarksAsync(System.Double,System.Double)">
             <summary>
-            Gets the placemarks asynchronous.
+            Gets the placemarks asynchronously.
             </summary>
             <param name="latitude">The latitude.</param>
             <param name="longitude">The longitude.</param>
@@ -359,7 +359,7 @@
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode.GetLocationsAsync(System.String)">
             <summary>
-            Gets the locations asynchronous.
+            Gets the locations asynchronously.
             </summary>
             <param name="address">The address.</param>
             <returns>The locations.</returns>
@@ -382,6 +382,25 @@
             <returns>An observable sequence of locations.</returns>
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation.GetLocation(Xamarin.Essentials.GeolocationRequest)">
+            <summary>
+            Gets the location asynchronous.
+            </summary>
+            <param name="request">The request.</param>
+            <returns>An observable sequence of locations.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation.GetLastKnownLocationAsync">
+            <summary>
+            Gets the last known location asynchronous.
+            </summary>
+            <returns>An observable sequence of locations.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation.GetLocationAsync">
+            <summary>
+            Gets the location asynchronous.
+            </summary>
+            <returns>An observable sequence of locations.</returns>
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeolocation.GetLocationAsync(Xamarin.Essentials.GeolocationRequest)">
             <summary>
             Gets the location asynchronous.
             </summary>

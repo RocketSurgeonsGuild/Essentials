@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reactive.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using Rocket.Surgery.Xamarin.Essentials.Abstractions;
 using Xamarin.Essentials;
 
@@ -24,5 +25,16 @@ namespace Rocket.Surgery.Xamarin.Essentials
         /// <inheritdoc />
         public IObservable<Location> GetLocation(GeolocationRequest request) =>
             Observable.FromAsync(() => Geolocation.GetLocationAsync(request));
+
+        /// <inheritdoc />
+        public async Task<Location> GetLastKnownLocationAsync() =>
+            await Geolocation.GetLastKnownLocationAsync().ContinueOnAnyContext();
+
+        /// <inheritdoc />
+        public async Task<Location> GetLocationAsync() => await Geolocation.GetLocationAsync().ContinueOnAnyContext();
+
+        /// <inheritdoc />
+        public async Task<Location> GetLocationAsync(GeolocationRequest request) =>
+            await Geolocation.GetLocationAsync(request).ContinueOnAnyContext();
     }
 }

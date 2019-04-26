@@ -13,6 +13,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Rocket.Surgery.Task.Extensions" Version="0.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Essentials.Abstractions\Essentials.Abstractions.csproj" />
   </ItemGroup>
 

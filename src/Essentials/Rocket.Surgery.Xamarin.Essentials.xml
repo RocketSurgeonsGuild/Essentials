@@ -220,6 +220,24 @@
         <member name="M:Rocket.Surgery.Xamarin.Essentials.FlashlightEssential.TurnOff">
             <inheritdoc />
         </member>
+        <member name="T:Rocket.Surgery.Xamarin.Essentials.GeocodeEssential">
+            <summary>
+            Provides access to the <see cref="T:Xamarin.Essentials.Geocoding"/> API.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IGeocode" />
+        </member>
+        <member name="P:Rocket.Surgery.Xamarin.Essentials.GeocodeEssential.MapKey">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeocodeEssential.GetPlacemarksAsync(Xamarin.Essentials.Location)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeocodeEssential.GetPlacemarksAsync(System.Double,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeocodeEssential.GetLocationsAsync(System.String)">
+            <inheritdoc />
+        </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential">
             <summary>
             Provides access to the <see cref="T:Xamarin.Essentials.Location"/> API.
@@ -233,6 +251,15 @@
             <inheritdoc />
         </member>
         <member name="M:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential.GetLocation(Xamarin.Essentials.GeolocationRequest)">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential.GetLastKnownLocationAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential.GetLocationAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Rocket.Surgery.Xamarin.Essentials.GeolocationEssential.GetLocationAsync(Xamarin.Essentials.GeolocationRequest)">
             <inheritdoc />
         </member>
         <member name="T:Rocket.Surgery.Xamarin.Essentials.GyroscopeEssential">
