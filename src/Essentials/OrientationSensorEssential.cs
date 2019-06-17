@@ -15,7 +15,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
 
         /// <inheritdoc />
         public IObservable<OrientationSensorChangedEventArgs> OrientationSensorChanged =>
-            Events.OrientationSensorReadingChanged();
+            Events.OrientationSensorReadingChanged;
 
         /// <inheritdoc />
         public void Start(SensorSpeed sensorSpeed = SensorSpeed.Default) => OrientationSensor.Start(sensorSpeed);

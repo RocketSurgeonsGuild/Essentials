@@ -41,9 +41,9 @@ jobs:
 
   - template: pipeline/cake-job.yml@rsg
     parameters:
-      name: 'MacOSX'
+      name: 'Windows'
       dependsOn: GitVersion
-      vmImage: "macOS-10.13"
+      vmImage: "windows-2019"
       pushNuget: true
       Configuration: $(Configuration)
       Verbosity: $(Verbosity)

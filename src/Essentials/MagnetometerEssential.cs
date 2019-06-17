@@ -16,7 +16,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
         public bool IsMonitoring => Magnetometer.IsMonitoring;
 
         /// <inheritdoc />
-        public IObservable<MagnetometerChangedEventArgs> MagnetometerChanged => Events.MagnetometerReadingChanged();
+        public IObservable<MagnetometerChangedEventArgs> MagnetometerChanged => Events.MagnetometerReadingChanged;
 
         /// <inheritdoc />
         public void Start(SensorSpeed sensorSpeed = SensorSpeed.Default) => Magnetometer.Start(sensorSpeed);

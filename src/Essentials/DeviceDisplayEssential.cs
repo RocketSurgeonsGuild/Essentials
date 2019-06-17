@@ -24,6 +24,6 @@ namespace Rocket.Surgery.Xamarin.Essentials
 
         /// <inheritdoc />
         public IObservable<DisplayInfoChangedEventArgs> DisplayInfoChanged =>
-            Events.DeviceDisplayMainDisplayInfoChanged();
+            Events.DeviceDisplayMainDisplayInfoChanged;
     }
 }

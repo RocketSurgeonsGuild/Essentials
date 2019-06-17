@@ -16,7 +16,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
         public bool IsMonitoring => Compass.IsMonitoring;
 
         /// <inheritdoc />
-        public IObservable<CompassChangedEventArgs> CompassChanged => Events.CompassReadingChanged();
+        public IObservable<CompassChangedEventArgs> CompassChanged => Events.CompassReadingChanged;
 
         /// <inheritdoc />
         public void Start(SensorSpeed sensorSpeed = SensorSpeed.Default) => Compass.Start(sensorSpeed);

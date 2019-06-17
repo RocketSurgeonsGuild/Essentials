@@ -8,10 +8,12 @@
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
-    <PropertyGroup>
-      <DocumentationFile>C:\Users\rlittles\Source\github\RocketSurgeonsGuild\Essentials\src\Essentials.Abstractions\Rocket.Surgery.Xamarin.Essentials.Abstractions.xml</DocumentationFile>
-    </PropertyGroup>
-
+    <ItemGroup>
+      <PackageReference Include="Xamarin.Essentials" Version="1.2" />
+      <PackageReference Include="Pharmacist.MsBuild" Version="1.0.126" PrivateAssets="all" />
+      <PackageReference Include="Pharmacist.Common" Version="1.0.126" />
+    </ItemGroup>
+    
     <ItemGroup>
       <Reference Include="System.Reactive">
         <HintPath>..\..\..\..\..\..\.nuget\packages\system.reactive\4.0.0\lib\netstandard2.0\System.Reactive.dll</HintPath>

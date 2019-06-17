@@ -19,6 +19,6 @@ namespace Rocket.Surgery.Xamarin.Essentials
 
         /// <inheritdoc />
         public IObservable<ConnectivityChangedEventArgs> ConnectivityChanged =>
-            Events.ConnectivityConnectivityChanged();
+            Events.ConnectivityConnectivityChanged;
     }
 }

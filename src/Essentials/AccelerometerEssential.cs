@@ -14,7 +14,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
         public bool IsMonitoring => Accelerometer.IsMonitoring;
 
         /// <inheritdoc />
-        public IObservable<AccelerometerChangedEventArgs> ReadChanged => Events.AccelerometerReadingChanged();
+        public IObservable<AccelerometerChangedEventArgs> ReadChanged => Events.AccelerometerReadingChanged;
 
         /// <inheritdoc />
         public void Start(SensorSpeed sensorSpeed = SensorSpeed.Default) => Accelerometer.Start(sensorSpeed);

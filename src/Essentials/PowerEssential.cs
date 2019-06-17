@@ -15,6 +15,6 @@ namespace Rocket.Surgery.Xamarin.Essentials
 
         /// <inheritdoc />
         public IObservable<EnergySaverStatusChangedEventArgs> EnergySaverStatusChanged =>
-            Events.BatteryEnergySaverStatusChanged();
+            Events.BatteryEnergySaverStatusChanged;
     }
 }

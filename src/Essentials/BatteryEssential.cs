@@ -20,6 +20,6 @@ namespace Rocket.Surgery.Xamarin.Essentials
         public BatteryPowerSource PowerSource => Battery.PowerSource;
 
         /// <inheritdoc />
-        public IObservable<BatteryInfoChangedEventArgs> BatteryChanged => Events.BatteryBatteryInfoChanged();
+        public IObservable<BatteryInfoChangedEventArgs> BatteryChanged => Events.BatteryBatteryInfoChanged;
     }
 }

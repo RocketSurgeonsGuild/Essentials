@@ -577,5 +577,65 @@
         <member name="M:Rocket.Surgery.Xamarin.Essentials.VibrationEssential.Vibrate(System.TimeSpan)">
             <inheritdoc />
         </member>
+        <member name="T:Xamarin.Essentials.Events">
+            <summary>
+            A class that contains extension methods to wrap events contained within static classes within the <see cref = "N:Xamarin.Essentials"/> namespace.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.AccelerometerReadingChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Accelerometer.ReadingChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.AccelerometerShakeDetected">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Accelerometer.ShakeDetected"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.BarometerReadingChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Barometer.ReadingChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.BatteryBatteryInfoChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Battery.BatteryInfoChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.BatteryEnergySaverStatusChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Battery.EnergySaverStatusChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.CompassReadingChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Compass.ReadingChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.ConnectivityConnectivityChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Connectivity.ConnectivityChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.DeviceDisplayMainDisplayInfoChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.DeviceDisplay.MainDisplayInfoChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.GyroscopeReadingChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Gyroscope.ReadingChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.MagnetometerReadingChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.Magnetometer.ReadingChanged"/> event triggers.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Essentials.Events.OrientationSensorReadingChanged">
+            <summary>
+            Gets an observable which signals when the <see cref = "E:Xamarin.Essentials.OrientationSensor.ReadingChanged"/> event triggers.
+            </summary>
+        </member>
     </members>
 </doc>

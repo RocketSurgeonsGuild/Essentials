@@ -16,7 +16,7 @@ namespace Rocket.Surgery.Xamarin.Essentials
         public bool IsMonitoring => Gyroscope.IsMonitoring;
 
         /// <inheritdoc />
-        public IObservable<GyroscopeChangedEventArgs> GyroscopeChanged => Events.GyroscopeReadingChanged();
+        public IObservable<GyroscopeChangedEventArgs> GyroscopeChanged => Events.GyroscopeReadingChanged;
 
         /// <inheritdoc />
         public void Start(SensorSpeed sensorSpeed = SensorSpeed.Default) => Gyroscope.Start(sensorSpeed);
