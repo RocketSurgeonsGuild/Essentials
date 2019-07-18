@@ -12,14 +12,11 @@
     <DocumentationFile>C:\Users\rlittles\Source\github\RocketSurgeonsGuild\Essentials\src\Essentials\Rocket.Surgery.Xamarin.Essentials.xml</DocumentationFile>
   </PropertyGroup>
 
-    <ItemGroup>
+  <ItemGroup>
       <PackageReference Include="Xamarin.Essentials" Version="1.2" />
       <PackageReference Include="Pharmacist.MsBuild" Version="1.0.126" PrivateAssets="all" />
       <PackageReference Include="Pharmacist.Common" Version="1.0.126" />
-    </ItemGroup>
-    
-  <ItemGroup>
-    <PackageReference Include="Rocket.Surgery.Task.Extensions" Version="0.8.5" />
+      <PackageReference Include="Rocket.Surgery.Task.Extensions" Version="0.8.5" />
   </ItemGroup>
 
   <ItemGroup>
