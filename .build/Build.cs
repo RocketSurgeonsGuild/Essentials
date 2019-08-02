@@ -14,7 +14,7 @@ using Rocket.Surgery.Nuke.MsBuild;
 
 [CheckBuildProjectConfigurations]
 [UnsetVisualStudioEnvironmentVariables]
-class Program : MSBuild
+class Build : MSBuild
 {
     /// <summary>
     /// Support plugins are available for:
@@ -24,7 +24,7 @@ class Program : MSBuild
     ///   - Microsoft VSCode           https://nuke.build/vscode
     /// </summary>
 
-    public static int Main() => Execute<Program>(x => x.Default);
+    public static int Main() => Execute<Build>(x => x.Default);
 
     Target Default => _ => _.DependsOn(NetFramework);
 }
