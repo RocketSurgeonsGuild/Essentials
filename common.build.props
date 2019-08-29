@@ -7,7 +7,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageProjectUrl>https://github.com/RocketSurgeonsGuild/Essentials</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/RocketSurgeonsGuild/Essentials/blob/master/LICENSE</PackageLicenseUrl>
-        <PackageIconUrl>https://raw.githubusercontent.com/RocketSurgeonsGuild/graphics/master/png/rsg-patch-circle-color.png</PackageIconUrl>
+        <PackageIconUrl>https://raw.githubusercontent.com/RocketSurgeonsGuild/graphics/master/png/social-square-thrust-rounded.png</PackageIconUrl>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     </PropertyGroup>
 </Project>
