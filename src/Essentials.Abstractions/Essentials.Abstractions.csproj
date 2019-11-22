@@ -8,6 +8,10 @@
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <DocumentationFile>Rocket.Surgery.Xamarin.Essentials.Abstractions.xml</DocumentationFile>
+    </PropertyGroup>
+
     <ItemGroup>
       <PackageReference Include="Xamarin.Essentials" />
       <PackageReference Include="System.Reactive" />

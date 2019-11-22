@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <DocumentationFile>C:\Users\rlittles\Source\github\RocketSurgeonsGuild\Essentials\src\Essentials\Rocket.Surgery.Xamarin.Essentials.xml</DocumentationFile>
+    <DocumentationFile>Rocket.Surgery.Xamarin.Essentials.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

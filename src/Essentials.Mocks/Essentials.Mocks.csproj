@@ -13,6 +13,10 @@
     <PackageReference Include="System.Reactive" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <DocumentationFile>Rocket.Surgery.Xamarin.Essentials.Mocks.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Essentials.Abstractions\Essentials.Abstractions.csproj" />
   </ItemGroup>

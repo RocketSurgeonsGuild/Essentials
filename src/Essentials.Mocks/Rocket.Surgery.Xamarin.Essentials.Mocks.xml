@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rocket.Surgery.Xamarin.Essentials.Mocks</name>
+    </assembly>
+    <members>
+        <member name="T:Essentials.Mocks.MockCompassEssential">
+            <summary>
+            Mock compass essential.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ICompass" />
+        </member>
+        <member name="M:Essentials.Mocks.MockCompassEssential.#ctor(System.Reactive.Concurrency.IScheduler,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Essentials.Mocks.MockCompassEssential" /> class.
+            </summary>
+            <param name="scheduler">The scheduler.</param>
+            <param name="seconds">The seconds.</param>
+            <param name="heading">The heading.</param>
+        </member>
+        <member name="P:Essentials.Mocks.MockCompassEssential.IsMonitoring">
+            <inheritdoc />
+        </member>
+        <member name="P:Essentials.Mocks.MockCompassEssential.CompassChanged">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockCompassEssential.Start(Xamarin.Essentials.SensorSpeed)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockCompassEssential.Stop">
+            <inheritdoc />
+        </member>
+        <member name="T:Essentials.Mocks.MockConnectivityEssential">
+            <summary>
+            Mock connectivity essential.
+            </summary>
+            <seealso cref="T:ReactiveUI.ReactiveObject" />
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IConnectivity" />
+        </member>
+        <member name="M:Essentials.Mocks.MockConnectivityEssential.#ctor(System.Reactive.Concurrency.IScheduler,System.Double,System.Collections.Generic.IEnumerable{Xamarin.Essentials.NetworkAccess})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Essentials.Mocks.MockConnectivityEssential" /> class.
+            </summary>
+            <param name="scheduler">The scheduler.</param>
+            <param name="seconds">The seconds.</param>
+            <param name="networkAccesses">The network accesses.</param>
+        </member>
+        <member name="P:Essentials.Mocks.MockConnectivityEssential.NetworkAccess">
+            <inheritdoc />
+        </member>
+        <member name="P:Essentials.Mocks.MockConnectivityEssential.Profiles">
+            <inheritdoc />
+        </member>
+        <member name="P:Essentials.Mocks.MockConnectivityEssential.ConnectivityChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:Essentials.Mocks.MockPreferencesEssential">
+            <summary>
+            Mock preferences essential.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.IPreferences" />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Clear">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Clear(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.ContainsKey(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.ContainsKey(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Single)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Int64)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Boolean,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Int32,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Double,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Single,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.Int64,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.DateTime)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Get(System.String,System.DateTime,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Remove(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Remove(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Single)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Int64)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Boolean,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Int32,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Double,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Single,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.Int64,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.DateTime)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockPreferencesEssential.Set(System.String,System.DateTime,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Essentials.Mocks.MockSecureStorageEssential">
+            <summary>
+            Mock secure storage essential.
+            </summary>
+            <seealso cref="T:Rocket.Surgery.Xamarin.Essentials.Abstractions.ISecureStorage" />
+        </member>
+        <member name="M:Essentials.Mocks.MockSecureStorageEssential.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Essentials.Mocks.MockSecureStorageEssential"/> class.
+            </summary>
+        </member>
+        <member name="M:Essentials.Mocks.MockSecureStorageEssential.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Essentials.Mocks.MockSecureStorageEssential"/> class.
+            </summary>
+            <param name="storage">The storage.</param>
+        </member>
+        <member name="M:Essentials.Mocks.MockSecureStorageEssential.Get(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockSecureStorageEssential.Set(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockSecureStorageEssential.Remove(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Essentials.Mocks.MockSecureStorageEssential.RemoveAll">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
