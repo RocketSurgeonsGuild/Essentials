@@ -1,7 +1,6 @@
 <Project>
     <ItemGroup>  
         <PackageReference Include="Xamarin.Essentials" />
-        <PackageReference Include="ReactiveUI.Events.XamEssentials" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Bogus" />
