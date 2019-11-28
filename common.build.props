@@ -3,7 +3,7 @@
         <Company>Rocket Surgeons Guild</Company>
         <Authors>Rodney Littles, II</Authors>
         <LangVersion>latest</LangVersion>
-        <RepositoryUrl>https://github.com/RocketSurgeonsGuild/Essentials</RepositoryUrl>
+        <RepositoryUrl>https://github.com/RocketSurgeonsGuild/Essentials.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageProjectUrl>https://github.com/RocketSurgeonsGuild/Essentials</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/RocketSurgeonsGuild/Essentials/blob/master/LICENSE</PackageLicenseUrl>

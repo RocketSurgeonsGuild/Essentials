@@ -5,6 +5,7 @@
     <AssemblyName>Rocket.Surgery.Xamarin.Essentials.Mocks</AssemblyName>
     <RootNamespace>Rocket.Surgery.Xamarin.Essentials.Mocks</RootNamespace>
     <Description>Reactive mocks for Xamarin.Essentials</Description>
+    <RepositoryUrl>https://github.com/RocketSurgeonsGuild/Essentials.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

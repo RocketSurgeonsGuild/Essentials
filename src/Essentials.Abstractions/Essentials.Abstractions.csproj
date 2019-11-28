@@ -5,6 +5,7 @@
         <Description>Abstractions for Xamarin.Essentials</Description>
         <AssemblyName>Rocket.Surgery.Xamarin.Essentials.Abstractions</AssemblyName>
         <RootNamespace>Rocket.Surgery.Xamarin.Essentials.Abstractions</RootNamespace>
+        <RepositoryUrl>https://github.com/RocketSurgeonsGuild/Essentials.git</RepositoryUrl>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
